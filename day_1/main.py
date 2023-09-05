@@ -3,7 +3,9 @@ data = file.read()
 
 
 def day1_1():
+
     floor = 0
+
     for char in data:
         if (char == "("):
             floor += 1
